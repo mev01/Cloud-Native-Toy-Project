@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "../common";
+@import "../../css/feed/mixin";
+
+@include mobile {
+  .feed {
+    width: calc(100% - 20px);
+    min-width: 300px;
+    margin: 0 auto;
+  }
+}
+@include tablet {
+  .feed {
+    width: calc(70% - 10px);
+    margin: 0 auto;
+  }
+}
+
+@include desktop {
+  .feed {
+    width: calc(50% - 10px);
+    min-width: 550px;
+    margin: 0 auto;
+  }
+}

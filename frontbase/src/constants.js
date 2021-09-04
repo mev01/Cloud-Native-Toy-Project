@@ -1,0 +1,75 @@
+export const PGS = [
+  {
+    value: 'html5_inicis',
+    label: '웹 표준 이니시스',
+  },
+];
+
+export const METHODS = [
+  {
+    value: 'card',
+    label: '신용카드',
+  },
+  {
+    value: 'trans',
+    label: '실시간 계좌이체',
+  },
+  {
+    value: 'vbank',
+    label: '가상계좌',
+  },
+  {
+    value: 'phone',
+    label: '휴대폰 소액결제',
+  },
+];
+
+export const METHODS_FOR_INICIS = METHODS.concat([
+  {
+    value: 'samsung',
+    label: '삼성페이',
+  },
+  {
+    value: 'kapy',
+    label: 'KPAY',
+  },
+  {
+    value: 'cultureland',
+    label: '문화상품권',
+  },
+  {
+    value: 'smartculture',
+    label: '스마트문상',
+  },
+  {
+    value: 'happymoney',
+    label: '해피머니',
+  },
+]);
+
+export const METHODS_FOR_UPLUS = METHODS.concat([
+  {
+    value: 'cultureland',
+    label: '문화상품권',
+  },
+  {
+    value: 'smartculture',
+    label: '스마트문상',
+  },
+  {
+    value: 'booknlife',
+    label: '도서문화상품권',
+  },
+]);
+
+export const METHODS_FOR_KCP = METHODS.concat([{ value: 'samsung', label: '삼성페이' }]);
+
+export const METHOD_FOR_CARD = [{ value: 'card', label: '신용카드' }];
+export const METHOD_FOR_PHONE = [{ value: 'phone', label: '휴대폰 소액결제' }];
+export const METHOD_FOR_VBANK = [{ value: 'vbank', label: '가상계좌' }];
+
+export const METHODS_FOR_MOBILIANS = METHOD_FOR_CARD.concat(METHOD_FOR_PHONE);
+
+export const QUOTAS = ['0', '1'];
+
+export default {};
